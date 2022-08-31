@@ -1,10 +1,13 @@
-import { useState } from 'react';
-import './App.css';
+import styles from './App.module.css';
+
+import ProductPreviewCard from './components/product-preview-card/ProductPreviewCard';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className='App'></div>;
+  return (
+    <div className={styles.app}>
+      <ProductPreviewCard />
+    </div>
+  );
 }
 
 export default App;

@@ -1,0 +1,33 @@
+.btn {
+  all: unset;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: min-content max-content;
+  column-gap: 1rem;
+
+  padding-block: 1.2rem;
+  grid-auto-flow: column;
+  background-color: tomato;
+  color: var(--clr-neutral-white);
+  border-radius: 10px;
+  background-color: var(--clr-prim-dark-cyan);
+  transition: background-color .3s;
+  cursor: pointer;
+  align-self: end;
+}
+
+.btn:hover {
+  background-color: var(--clr-prim-btn-hover);
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+.text {
+  font-size: var(--fs-text);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-montserrat);
+}
