@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/lulzz/frontendmentor-product-prev-card)
-- Live Site URL: [Live site URL here](https://lulzz.github.io/frontendmentor-product-prev-card/)
+- Live Site URL: [Live site URL](https://lulzz.github.io/frontendmentor-product-prev-card/)
 
 ## My process
 
